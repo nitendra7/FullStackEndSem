@@ -24,6 +24,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Backend (Spring Boot, Maven, Java)
+backend/src/main/resources/application.properties
 backend/target/
 backend/pom.xml.tag
 backend/pom.xml.releaseBackup
