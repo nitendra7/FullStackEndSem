@@ -1,0 +1,48 @@
+# General
+.DS_Store
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# Frontend (Node, React, Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env
+frontend/.env.*
+frontend/.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Backend (Spring Boot, Maven, Java)
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+backend/dependency-reduced-pom.xml
+backend/buildNumber.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore backend local environment configurations (if you create any)
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
